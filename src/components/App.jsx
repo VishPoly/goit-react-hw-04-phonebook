@@ -37,9 +37,8 @@ export default function App() {
       resetForm();
     }
   };
-  // const oldContact = this.state.contacts.find(
-  //   person => person.name.toLowerCase() === values.name.toLowerCase()
-  // );
+
+
 
   const onFilter = evt => {
     setFilter(evt.target.value);
