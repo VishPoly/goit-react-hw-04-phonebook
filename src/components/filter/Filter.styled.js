@@ -17,9 +17,9 @@ export const FilterInput = styled.input`
   padding: ${p => p.theme.space[2]}px;
   border-radius: ${p => p.theme.radii.normal};
   border: ${p => p.theme.borders.normal};
-
   :hover,
   :focus {
     border: ${p => p.theme.borders.normal} ${p => p.theme.colors.accent};
   }
 `;
+  

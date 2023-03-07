@@ -5,6 +5,8 @@ import ContactList from './list/ContactsList';
 import { Filter } from './filter/Filter';
 import { Container, Title } from './App.styled';
 
+
+
 export default function App() {
   const initialContacts = [
     { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },

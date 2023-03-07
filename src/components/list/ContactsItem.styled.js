@@ -15,6 +15,7 @@ export const ContactsItem = styled.li`
   }
 `;
 
+
 export const DeleteButton = styled.button`
   display: flex;
   align-items: center;
@@ -29,7 +30,7 @@ export const DeleteButton = styled.button`
     background-color: ${p => p.theme.colors.red};
   }
 `;
-
 export const Text = styled.p`
-  color: ${p => p.theme.colors.accentText};
+color: ${p => p.theme.colors.accentText};
 `;
+
