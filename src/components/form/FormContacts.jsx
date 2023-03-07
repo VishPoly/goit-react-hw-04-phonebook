@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { Formik } from 'formik';
 import { Box, Input, InputName, SubmitButton } from './FormContacts.styled';
+
 export const ContactsReviewForm = ({ submitForm }) => {
   return (
     <Formik initialValues={{ name: '', number: '' }} onSubmit={submitForm}>

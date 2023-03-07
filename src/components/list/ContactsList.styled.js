@@ -6,7 +6,7 @@ export const ContactsTitle = styled.h2`
   font-weight: ${p => p.theme.fontWeights.bold};
   text-align: center;
 `;
-
 export const List = styled.ul`
   padding: ${p => p.theme.space[4]}px;
 `;
+
