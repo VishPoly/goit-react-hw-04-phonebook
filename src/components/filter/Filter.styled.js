@@ -10,7 +10,6 @@ export const FilterContainer = styled.label`
   align-items: center;
   justify-content: center;
 `;
-
 export const FilterInput = styled.input`
   width: 300px;
   margin-top: ${p => p.theme.space[2]}px;
@@ -22,4 +21,5 @@ export const FilterInput = styled.input`
     border: ${p => p.theme.borders.normal} ${p => p.theme.colors.accent};
   }
 `;
+
   
